@@ -1,0 +1,9 @@
+<?php
+require('header.php');
+if(isset($_SESSION['id'])){
+require('contactus.php');
+}else{
+	require('login.php');
+}
+require('footer.php');
+?>

@@ -1,0 +1,79 @@
+.padding190 li{
+	padding-left:190px;
+	
+}
+.gem{
+	width:10px;
+}
+.box{
+	width:10px;
+	border:1px solid #FFF;
+}
+.box1{
+	width:60px;
+	border:1px solid #FFF;
+}
+input[type="checkbox"] {
+  display: none;
+}
+label {
+  cursor: pointer;
+}
+input[type="checkbox"] + label:before {
+  background:white;
+  border: 1px solid #7f83a2;
+  content: "\00a0";
+  display: inline-block;
+  font: 16px/1em sans-serif;
+  height: 16px;
+  margin: 0 .25em 0 0;
+  padding: 0;
+  
+  width: 16px;
+}
+input[type="checkbox"]:checked + label:before {
+  background:green;
+  color: #666;
+  content: "\2713";
+  text-align: center;
+}
+input[type="checkbox"]:checked + label:after {
+  font-weight: bold;
+}
+input[type="checkbox"]:disabled + label:before{
+	background:red;
+}
+.margin-left{
+	margin-left:300px;
+}
+.border-bottom{
+	border:2px solid  #FFF;
+}
+.border-up{
+	border-top:1px solid #FFF;
+}
+.margin-bottom{
+	margin-bottom:60px;
+}
+.margin-bottom-20{
+	margin-bottom:20px;
+}
+.margin-bottom-70{
+	margin-bottom:180px;
+}
+.margin-bottom-80{
+	margin-bottom:135px;
+}
+.margin-top-50{
+	margin-top:50px;
+}
+.margin-bottom-1{
+	margin-bottom:10px;
+}
+.border-right{
+	border-right:2px solid #000;
+	height:100px;
+}
+.white2{
+	border:1px solid #FFF;
+}

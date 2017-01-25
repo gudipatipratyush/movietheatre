@@ -1,0 +1,9 @@
+<?php
+require('header.php');
+if(isset($_SESSION['id'])){
+require('main.php');
+}else{
+	require('login.php');
+}
+require('footer.php');
+?>
